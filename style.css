@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: black;
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    display: block;
+    background: url('https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=1600')
+    center/cover;
+}
+
+
+#gameOver {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+#gameOver button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#score{
+    position:absolute;
+    top:20px;
+    left:20px;
+    color:white;
+    font-size:28px;
+    font-weight:bold;
+}
+
+#lives{
+    position:absolute;
+    top:60px;
+    left:20px;
+    color:white;
+    font-size:28px;
+    font-weight:bold;
+}
+
+#highScore{
+    position:absolute;
+    top:100px;
+    left:20px;
+    color:gold;
+    font-size:28px;
+    font-weight:bold;
+}
